@@ -35,8 +35,6 @@ function PokemonForm({ onPokemonSubmit }) {
     .then(pokemon => onPokemonSubmit(pokemon))
   }
 
-  console.log(formData)
-
   return (
     <div>
       <h3>Add a Pokemon!</h3>
